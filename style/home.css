@@ -1,0 +1,56 @@
+.home{
+    width: 100%;
+    display: flex;
+}
+.left-section{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-basis: 50%;
+}
+
+.right-section{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-basis: 50%;
+}
+.right-section img{
+    width: 100%;
+}
+
+.left-section p{
+    padding: 30px 0;
+}
+.left-section h1{
+    font-size: 1.9em;
+}
+.btn{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+
+.btn button{
+    transition: 0.5s ease-in-out;
+    color: white;
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    padding: 8px 25px;
+}
+.btn button:hover{
+    border: 2px solid var(--primary);
+    background: var(--black)
+}
+
+.right-section img{
+    width: 100%;
+}
+

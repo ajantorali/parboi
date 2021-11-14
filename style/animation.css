@@ -1,0 +1,66 @@
+/*skill start*/
+.html{
+    animation-name: html;
+    animation-duration: 4s;
+}
+
+.css{
+    animation-name: css;
+    animation-duration: 4s;
+}
+
+.js{
+    animation-name: js;
+    animation-duration: 4s;
+}
+
+.php{
+    animation-name: php;
+    animation-duration: 4s;
+}
+
+.Bootstrap{
+    animation-name: bootstrap;
+    animation-duration: 4s;
+}
+
+
+@keyframes html {
+    from {width: 0px;}
+    to {width: 90%;}
+}
+
+@keyframes css {
+    from {width: 0px;}
+    to {width: 80%;}
+}
+
+@keyframes bootstrap {
+    from {width: 0px;}
+    to {width: 50%;}
+}
+
+@keyframes js {
+    from {width: 0px;}
+    to {width: 65%;}
+}
+
+@keyframes php {
+    from {width: 0px;}
+    to {width: 40%;}
+}
+/*skill end*/
+
+/*For Image*/
+.anim{
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}

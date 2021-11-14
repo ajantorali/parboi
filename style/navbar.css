@@ -1,0 +1,65 @@
+:root{
+    --primary: #f71a4a;
+    --black: black;
+    --white: white;
+    --grey: grey;
+    --lightblue: lightblue;
+    --grd: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+}
+
+@font-face {
+    font-family: ajantorali;
+    src: url(../font/Li Alinur Madina ANSI V2.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--lightblue);
+}
+
+.logo{
+    flex-basis: 50%;
+}
+.logo h1{
+    margin-left: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+nav.navbar ul{
+    justify-content: flex-end;
+    margin-right: 20px;
+    flex-basis: 50%;
+    display: flex;
+}
+
+.navbar li{
+    padding: 16px;
+    list-style: none;
+}
+.navbar a{
+    transition: 0.3s;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    border-bottom: 3px solid var(--primary);
+}
+.active{
+    color: black;
+}
